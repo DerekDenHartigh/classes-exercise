@@ -11,7 +11,7 @@ class BankAccount {
 }
 
 class BankAccountWithFee extends BankAccount {
-    constructor(fee){
+    constructor(balance, interestRate, fee){
         super(balance, interestRate)
         this.fee = fee;
     }
