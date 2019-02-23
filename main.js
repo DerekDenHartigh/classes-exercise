@@ -31,3 +31,4 @@ hiddenFeeAccount.addInterest()
 console.log(hiddenFeeAccount);
 hiddenFeeAccount.applyFee();
 console.log(hiddenFeeAccount);
+// all the methods work, but the console.logs don't actually log until after they are done doing their business, so they are identical.
